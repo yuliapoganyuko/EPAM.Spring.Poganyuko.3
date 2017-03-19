@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ComparisonClasses\ComparisonByMaxElement.cs" />
+    <Compile Include="ComparisonClasses\ComparisonByMinElement.cs" />
     <Compile Include="ComparisonClasses\ComparisonBySum.cs" />
     <Compile Include="IComparer.cs" />
     <Compile Include="JaggedArraySort.cs" />
