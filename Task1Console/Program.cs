@@ -15,8 +15,8 @@ namespace Task1Console
             JaggedArraySort.Sort(jaggedArray, new ComparisonBySum());
             PrintJaggedArray(jaggedArray, "Comparison by sum in ascending order: ");
 
-            JaggedArraySort.Sort(jaggedArray, new ComparisonByMaxElement());
-            PrintJaggedArray(jaggedArray, "Comparison by maximal element in ascending order: ");
+            JaggedArraySort.Sort(jaggedArray, new ComparisonByMaxElement(), false);
+            PrintJaggedArray(jaggedArray, "Comparison by maximal element in descending order: ");
 
             JaggedArraySort.Sort(jaggedArray, new ComparisonByMinElement());
             PrintJaggedArray(jaggedArray, "Comparison by minimal element in ascending order: ");
